@@ -1,6 +1,6 @@
 # arabic-latex-markdown
 
-[![test](https://github.com/7h5v7brf-wq/arabic-latex-markdown/actions/workflows/test.yml/badge.svg)](https://github.com/7h5v7brf-wq/arabic-latex-markdown/actions/workflows/test.yml)
+[![test](https://github.com/VDCX-DOCS/arabic-latex-markdown/actions/workflows/test.yml/badge.svg)](https://github.com/VDCX-DOCS/arabic-latex-markdown/actions/workflows/test.yml)
 [![license: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 Make Arabic Markdown that contains LaTeX math, Latin words and digits render correctly in right-to-left editors such as Obsidian. Brackets stop flipping, an `=` sign stops jumping to the wrong side, and numbered lists stop breaking.
@@ -17,7 +17,7 @@ In an RTL editor, Latin letters, digits, brackets and operators are "weak" or le
 ## Quick start
 
 ```bash
-git clone https://github.com/7h5v7brf-wq/arabic-latex-markdown.git
+git clone https://github.com/VDCX-DOCS/arabic-latex-markdown.git
 cd arabic-latex-markdown
 
 python scripts/rtlmd.py fix   path/to/notes        # rewrite a file or a whole folder in place
