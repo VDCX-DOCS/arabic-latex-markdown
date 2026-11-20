@@ -1,0 +1,22 @@
+name: test
+on: [push, pull_request]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.9", "3.12"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - run: python scripts/test_rtlmd.py
+      - name: examples are up to date
+        run: |
+          for f in assets/*_before.md; do
+            cp "$f" /tmp/t.md
+            python scripts/rtlmd.py fix /tmp/t.md
+            cmp /tmp/t.md "${f/_before/_after}"
+          done
+          python scripts/rtlmd.py check assets/example_after.md assets/example_obsidian_after.md
