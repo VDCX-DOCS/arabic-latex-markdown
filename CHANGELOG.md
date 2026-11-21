@@ -3,7 +3,7 @@
 Newest first. Version numbers are in `scripts/rtlmd.py` (`--version`) and in the title of `SKILL.md`.
 
 ## Unreleased
-- Repository files for publishing: English `README.md`, `AGENTS.md`, `CONTRIBUTING.md`, issue template, CI workflow, MIT license.
+- Repository files for publishing: English `README.md`, `AGENTS.md`, CI workflow, MIT license.
 - Wording made vendor-neutral and free of references to one person's setup; no behaviour change.
 - `scripts/test_rtlmd.py` now writes direction characters as escapes instead of literal invisible characters.
 
