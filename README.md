@@ -56,7 +56,7 @@ The rules live in plain Markdown and the tool is a single script, so nothing her
 python scripts/test_rtlmd.py
 ```
 
-The suite has 34 tests, including random-input checks that `fix` is idempotent, and it fails if a check code is added without being documented in `SKILL.md`. After changing an example file, regenerate it with `fix` rather than editing it by hand. CI runs the tests on Python 3.9 and 3.12 and verifies that the example pairs are still in sync. See [`CONTRIBUTING.md`](CONTRIBUTING.md) and [`CHANGELOG.md`](CHANGELOG.md).
+The suite has 34 tests, including random-input checks that `fix` is idempotent, and it fails if a check code is added without being documented in `SKILL.md`. After changing an example file, regenerate it with `fix` rather than editing it by hand. CI runs the tests on Python 3.9 and 3.12 and verifies that the example pairs are still in sync. See [`CHANGELOG.md`](CHANGELOG.md) for the history of changes.
 
 ## Known limits
 
