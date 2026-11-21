@@ -1,7 +1,6 @@
 # arabic-latex-markdown
 
-[![test](https://img.shields.io/github/actions/workflow/status/VDCX-DOCS/arabic-latex-markdown/test.yml?branch=main&label=test)](https://github.com/VDCX-DOCS/arabic-latex-markdown/actions/workflows/test.yml)
-[![license: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![test](https://github.com/VDCX-DOCS/arabic-latex-markdown/actions/workflows/test.yml/badge.svg)](https://github.com/VDCX-DOCS/arabic-latex-markdown/actions/workflows/test.yml)
 
 Make Arabic Markdown that contains LaTeX math, Latin words and digits render correctly in right-to-left editors such as Obsidian. Brackets stop flipping, an `=` sign stops jumping to the wrong side, and numbered lists stop breaking.
 
